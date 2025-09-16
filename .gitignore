@@ -1,0 +1,85 @@
+# --- Node / React / Express ---
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+package-lock.json
+yarn.lock
+.pnpm-debug.log
+.cache/
+dist/
+build/
+
+# dotenv environment files
+.env
+.env.*.local
+
+# IDE / Editor
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+# Logs
+logs
+*.log
+*.out
+*.pid
+*.seed
+*.gz
+
+# --- Python / Django ---
+__pycache__/
+*.py[cod]
+*$py.class
+db.sqlite3
+*.sqlite3
+*.db
+
+# Django stuff:
+*.log
+local_settings.py
+media
+staticfiles
+static
+
+# Virtual environments
+.venv
+venv/
+ENV/
+env/
+venv.bak/
+
+# Pytest
+.cache
+.pytest_cache/
+
+# Coverage reports
+htmlcov/
+.tox/
+.nox/
+coverage.xml
+*.cover
+*.py,cover
+*.log
+.coverage
+*.mo
+*.pot
+
+# Jupyter
+.ipynb_checkpoints
+
+# Mac/OSX stuff
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows stuff
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# --- End ---
